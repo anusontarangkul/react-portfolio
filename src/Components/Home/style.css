@@ -1,0 +1,5 @@
+.background-page {
+  background-image: linear-gradient(to right, #84ceeb, #52b9ea, #84ceeb);
+
+  height: 100vh;
+}

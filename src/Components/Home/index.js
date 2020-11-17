@@ -3,7 +3,9 @@ import './style.css';
 
 function Home() {
     return (
-        null
+        <div className="background-page">
+
+        </div>
     );
 }
 
