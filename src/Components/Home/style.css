@@ -3,3 +3,27 @@
 
   height: 100vh;
 }
+
+.intro {
+  font-size: 4rem;
+}
+
+.intro-des {
+  font-size: 2rem;
+}
+
+.left-col {
+  padding-left: 2rem;
+  padding-top: 20%;
+}
+
+.right-col {
+  margin-top: 10%;
+  padding-right: 2rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 50vh;
+  width: auto;
+}

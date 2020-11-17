@@ -25,7 +25,7 @@ function Navbar() {
                 <div className='navbar-end'>
                     <div className='navbar-item nav-links'>
                         <a href='/' className='navbar-item has-text-white-bis has-text-weight-bold'>
-                            Porfolio
+                            Portfolio
             </a>
                         <a href='/' className='navbar-item has-text-white-bis has-text-weight-bold'>
                             About

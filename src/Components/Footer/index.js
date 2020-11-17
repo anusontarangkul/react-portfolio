@@ -11,17 +11,17 @@ function Footer() {
                 </div>
                 <div className=" column footer-column  has-text-weight-medium">
                     <ul className="menu simple footer-icon">
-                        <li><a href="https://twitter.com/?lang=en"><i className="fa fa-envelope" aria-hidden="true"></i></a>&nbsp;anusontarangkul.d@gmail.com</li>
+                        <li><a target="_blank" href="mailto:anusontarangkul.d@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i>&nbsp;anusontarangkul.d@gmail.com</a></li>
 
-                        <li className="icon2"><a href="https://www.facebook.com/"><i className="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;on LinkedIn</li>
+                        <li className="icon2"><a target="_blank" href="https://www.linkedin.com/in/anusontarangkul/"><i className="fa fa-linkedin" aria-hidden="true"></i>&nbsp;on LinkedIn</a></li>
 
                     </ul>
                 </div>
                 <div className=" column footer-column  has-text-weight-medium">
                     <ul className="menu simple footer-icon">
-                        <li><a href="https://www.instagram.com/?hl=en"><i className="fa fa-github" aria-hidden="true"></i></a>&nbsp;on GitHub</li>
+                        <li><a target="_blank" href="https://github.com/anusontarangkul"><i className="fa fa-github" aria-hidden="true"></i>&nbsp;on GitHub</a></li>
 
-                        <li className="icon2"><a href="https://www.pinterest.com/"><i className="fa fa-youtube" aria-hidden="true"></i></a>&nbsp;on YouTube</li>
+                        <li className="icon2"><a target="_blank" href="https://www.youtube.com/channel/UCYBwball06AdVuaHeH7adVw?view_as=subscriber"><i className="fa fa-youtube" aria-hidden="true"></i>&nbsp;on YouTube</a></li>
 
                     </ul>
                 </div>
