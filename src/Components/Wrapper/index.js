@@ -3,7 +3,9 @@ import './style.css';
 
 function Wrapper() {
     return (
-        null
+        <div>
+
+        </div>
     );
 }
 

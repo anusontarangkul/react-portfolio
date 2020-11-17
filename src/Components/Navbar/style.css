@@ -1,0 +1,14 @@
+.name-nav {
+  font-size: 2rem;
+  padding-left: 1.7rem;
+}
+
+.navbar {
+  min-height: 6rem;
+  background-color: #5ab9ea;
+}
+
+.nav-links {
+  font-size: 1.3rem;
+  padding-right: 1.7rem;
+}
