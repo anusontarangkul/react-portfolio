@@ -1,0 +1,17 @@
+.background-page {
+
+    background-color: #88BDBC;
+    height: 100vh;
+  }
+
+  .contact-h1{
+    color: #112D32;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 2rem;;
+  }
+
+  .contact-p{
+    color: #112D32;
+    font-size: 1.7rem;
+  }
