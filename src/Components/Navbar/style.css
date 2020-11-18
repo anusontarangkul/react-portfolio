@@ -1,6 +1,7 @@
 .name-nav {
   font-size: 2rem;
   padding-left: 1.7rem;
+ padding-top: 1.3rem;
 }
 
 .navbar {
@@ -12,4 +13,9 @@
 .nav-links {
   font-size: 1.3rem;
   padding-right: 1.7rem;
+}
+
+
+.burger-edit {
+  padding-top: 3rem;
 }

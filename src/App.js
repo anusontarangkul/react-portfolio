@@ -1,17 +1,26 @@
 import React from 'react';
+import { Route, Switch, Link, NavLink, Redirect } from "react-router-dom";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
+import Portfolio from "./Components/Portfolio"
 import Wrapper from "./Components/Wrapper";
 import Footer from "./Components/Footer"
 import './App.css';
 
+
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
-      <Home />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
+
+      </Switch>
       <Footer />
     </div>
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import { Link } from "react-router-dom";
+
 
 function Footer() {
     return (
@@ -7,7 +9,7 @@ function Footer() {
             <div className="columns">
                 <div className="column footer-column">
                     <p className="footer-details has-text-white-bis">Looking to hire a software developer?</p>
-                    <button className="footer-button">Contact Me</button>
+                    <Link to='/contact'><button className="footer-button">Contact Me</button></Link>
                 </div>
                 <div className=" column footer-column  has-text-weight-medium ">
                     <ul className="menu simple footer-icon">
