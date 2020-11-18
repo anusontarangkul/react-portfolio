@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar";
 import Portfolio from "./Components/Portfolio"
 import Wrapper from "./Components/Wrapper";
 import Footer from "./Components/Footer"
+import Resume from "./Components/Resume/resume.pdf"
 import './App.css';
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
 
       </Switch>
       <Footer />
