@@ -1,5 +1,6 @@
 .footer {
-  background-color: #c1c8e4;
+  /* background-color: #c1c8e4; */
+  background-color: #4F4A41;
 }
 
 .social-footer {
@@ -47,7 +48,7 @@
 }
 
 .footer-column {
-  margin-top: -1rem;
+  
   margin-left: 5%;
 }
 

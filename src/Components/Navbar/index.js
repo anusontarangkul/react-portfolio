@@ -11,7 +11,7 @@ function Navbar() {
 
                 <a
                     role='button'
-                    className={'navbar-burger burger'}
+                    className={'navbar-burger burger has-text-white-bis name-nav'}
                     aria-label='menu'
                     aria-expanded='false'
                     data-target='navbarBasicExample'

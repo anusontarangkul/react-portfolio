@@ -10,7 +10,7 @@ function Home() {
                 <div className="column left-col">
                     <h1 className="intro">Hey, I'm David</h1>
                     <p className="intro-des">Frontend Javascript Developer looking to make an impact collaborating with talented developers.</p>
-                    <button>View Portfolio</button>
+                    <button className="view-button">View Portfolio</button>
                 </div>
                 <div className="column right-col">
                     <img className="profile-pic" src={profile} />

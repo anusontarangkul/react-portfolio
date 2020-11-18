@@ -1,20 +1,22 @@
 .background-page {
-  background-image: linear-gradient(to right, #84ceeb, #52b9ea, #84ceeb);
-
+  /* background-image: linear-gradient(to right, #84ceeb, #52b9ea, #84ceeb); */
+  background-color: #88BDBC;
   height: 100vh;
 }
 
 .intro {
   font-size: 4rem;
+  color: #112D32;
 }
 
 .intro-des {
   font-size: 2rem;
+  color: #112D32;
 }
 
 .left-col {
   padding-left: 2rem;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 
 .right-col {
@@ -26,4 +28,11 @@
   border-radius: 50%;
   height: 50vh;
   width: auto;
+}
+
+.view-button{
+  border-radius: 10px;
+  width: 8rem;
+  height: 2rem;
+  font-weight: bold;
 }
