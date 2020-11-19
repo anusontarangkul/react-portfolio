@@ -21,6 +21,7 @@ function App() {
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
+        <Route path="/react-portfolio" exact component={Home} />
         <Redirect from="*" to="/" />
 
       </Switch>
