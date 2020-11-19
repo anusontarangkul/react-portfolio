@@ -3,7 +3,9 @@ import './style.css';
 
 function Portfolio() {
     return (
-        null
+        <div className="background-page">
+        </div>
+
     );
 }
 

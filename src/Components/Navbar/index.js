@@ -27,16 +27,16 @@ function Navbar() {
             <div id='navbarBasicExample' className='navbar-menu'>
                 <div className='navbar-end'>
                     <div className='navbar-item nav-links'>
-                        <Link to='/portfolio'> <a href='/' className='navbar-item has-text-white-bis has-text-weight-bold'>
+                        <Link to='/portfolio'> <a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
                             Portfolio
             </a>    </Link>
-                        <Link to='/about'> <a href='/' className='navbar-item has-text-white-bis has-text-weight-bold'>
+                        <Link to='/about'> <a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
                             About
             </a></Link>
-                        <a href={Resume} target="_blank" className='navbar-item has-text-white-bis has-text-weight-bold'>
+                        <a href={Resume} target="_blank" className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
                             Resume
             </a>
-                        <Link to='/contact'><a href='/' className='navbar-item has-text-white-bis has-text-weight-bold'>
+                        <Link to='/contact'><a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
                             Contact
             </a></Link>
                     </div>
