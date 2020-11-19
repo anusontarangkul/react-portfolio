@@ -104,7 +104,11 @@ function Portfolio() {
                     <img className="project-image" src={ConnectedPolitics} />
                 </div>
             </div >
+
+
         </div >
+
+
 
     );
 }

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <div className="footer">
+        <footer className="footer">
             <div className="columns">
                 <div className="column footer-column">
                     <p className="footer-details has-text-white-bis">Looking to hire a software developer?</p>
@@ -28,7 +28,7 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-        </div >
+        </footer>
     );
 }
 
