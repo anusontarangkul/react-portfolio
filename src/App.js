@@ -17,11 +17,11 @@ function App() {
       <Navbar />
 
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Route exact path={(process.env.PUBLIC_URL || "/") + "/"} component={Home} />
+        <Route path={(process.env.PUBLIC_URL || "/about") + "/about"} component={About} />
+        <Route path={(process.env.PUBLIC_URL || "/portfolio") + "/portfolio"} component={Portfolio} />
+        <Route path={(process.env.PUBLIC_URL || "/contact") + "/contact"} component={Contact} />
+        <Route path={(process.env.PUBLIC_URL || "/resume") + "/resume"} component={Resume} />
         <Route path="/react-portfolio" component={Home} />
         <Redirect from="*" to="/" exact component={Home} />
 

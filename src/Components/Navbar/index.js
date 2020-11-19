@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <nav className='navbar' role='navigation' aria-label='main navigation'>
             <div className='navbar-brand '>
-                <Link to='/'> <a href='/' className=' is-vcentered navbar-item name-nav has-text-white-bis has-text-weight-bold'>
+                <Link to={(process.env.PUBLIC_URL || "/") + "/"}> <a href='/' className=' is-vcentered navbar-item name-nav has-text-white-bis has-text-weight-bold'>
                     David Anusontarangkul
                 </a></Link>
 
@@ -27,16 +27,16 @@ function Navbar() {
             <div id='navbarBasicExample' className='navbar-menu'>
                 <div className='navbar-end'>
                     <div className='navbar-item nav-links'>
-                        <Link to='/portfolio'> <a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
+                        <Link to={(process.env.PUBLIC_URL || "/portfolio") + "/portfolio"}> <a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
                             Portfolio
             </a>    </Link>
-                        <Link to='/about'> <a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
+                        <Link to={(process.env.PUBLIC_URL || "/about") + "/about"}> <a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
                             About
             </a></Link>
                         <a href={Resume} target="_blank" className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
                             Resume
             </a>
-                        <Link to='/contact'><a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
+                        <Link to={(process.env.PUBLIC_URL || "/contact") + "/contact"}><a href='/' className='nav-link navbar-item has-text-white-bis has-text-weight-bold'>
                             Contact
             </a></Link>
                     </div>
