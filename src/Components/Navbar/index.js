@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './style.css';
+import Resume from '../Resume/resume.pdf';
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -32,9 +33,9 @@ function Navbar() {
                         <Link to='/about'> <a href='/' className='navbar-item has-text-white-bis has-text-weight-bold'>
                             About
             </a></Link>
-                        <Link to='/resume'> <a href='/' className='navbar-item has-text-white-bis has-text-weight-bold'>
+                        <a href={Resume} target="_blank" className='navbar-item has-text-white-bis has-text-weight-bold'>
                             Resume
-            </a></Link>
+            </a>
                         <Link to='/contact'><a href='/' className='navbar-item has-text-white-bis has-text-weight-bold'>
                             Contact
             </a></Link>
