@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
@@ -25,6 +26,7 @@ function App() {
         <Redirect from="*" to="/" exact component={Home} />
 
       </Switch>
+
       <Footer />
     </div>
 
@@ -32,3 +34,4 @@ function App() {
 }
 
 export default App;
+
