@@ -2,3 +2,36 @@
   background-color: #88bdbc;
   height: 100vh;
 }
+
+.projects-h2 {
+  color: #112d32;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+
+* {
+  color: #112d32;
+}
+
+.project-title {
+  font-size: 2rem;
+}
+
+.project-image {
+  height: 28rem;
+  width: 50rem;
+}
+
+.tech-border {
+  font-size: 1.5rem;
+}
+
+.tech-columns {
+  margin-top: 1rem;
+  padding-left: 8rem;
+}
+
+.project-column {
+  padding-top: 1rem;
+}
